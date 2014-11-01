@@ -29,6 +29,7 @@ _info.txt_ files are not required but they can add more info about the projects.
 
 It's assumed you have NodeJS installed. If you have set up the directories as shown above, run
 
+	npm install
 	node generate-index.js
 
 Now you can point your browser to the /public directory in the (local) web server.
