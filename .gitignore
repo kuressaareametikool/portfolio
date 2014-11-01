@@ -4,3 +4,4 @@ public/vendor/*
 !public/vendor/.gitkeep
 public/portfolio/*
 !public/portfolio/.gitkeep
+public/index.json

@@ -28,10 +28,11 @@ finder.on('file', function (file, stat) {
     
   	if (d.length == 2) {
   		if (e.toLowerCase() == '.jpg' || e.toLowerCase() == '.png')	{
+        var image = file.replace('public/', '')
          if (data[d[0]].projects[d[1]].images.length == 0) {
-            data[d[0]].projects[d[1]].image = file.replace('public/', '')
+            data[d[0]].projects[d[1]].image = image
          }
-  	     data[d[0]].projects[d[1]].images.push(f)
+  	     data[d[0]].projects[d[1]].images.push(image)
     	} else if (f == 'info.txt') {
           var info = fs.readFileSync(file, 'utf-8').split('\n--\n')
           data[d[0]].projects[d[1]].title = (info.length == 2) ? info[0] : d[1]
@@ -55,23 +56,9 @@ finder.on('file', function (file, stat) {
 
 finder.on('end', function () {
  
-   console.log(JSON.stringify(data, null, 2));
+  fs.writeFileSync('./public/index.json', JSON.stringify(data, null, 2))
+  console.log('Index generated');
 
 });
 
-/*
-
-          var info = info.split('--')
-          var videos = info[2] ? info[2].split('\n').map(function(item) {
-            var youtube = null
-            var vimeo = null
-            if (item.substr(0,10) == 'http://you' || item.substr(0,11) == 'https://you') {
-              youtube = '//www.youtube.com/embed/' + item.split('/')[3]
-            }
-            if (item.substr(0,10) == 'http://vim' || item.substr(0,11) == 'https://vim') {
-              vimeo = '//player.vimeo.com/video/' + item.split('/')[3]
-            }
-            return {youtube: youtube, vimeo: vimeo} 
-          }) : null
-*/
 
