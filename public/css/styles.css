@@ -1,0 +1,83 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+ @font-face {
+  font-family: KelsonSans;
+  src: url("../fonts/kelson_sans_regular-wf.eot");
+  src: url("../fonts/kelson_sans_regular-wf.eot?#iefix") format("embedded-opentype"), url("../fonts/kelson_sans_regular-wf.woff") format("woff"), url("../fonts/kelson_sans_regular-wf.ttf") format("truetype"), url("../fonts/kelson_sans_regular-wf.svg#kelson_sansregular") format("svg");
+  font-style: normal;
+}
+body {
+  font-family: Ubuntu, sans-serif;
+  line-height: 1.4em;
+  padding: 25px 30px 30px 95px;
+}
+.project {
+  max-width: 800px;
+}
+.front .item, .author .item {
+  display: inline-block;
+}
+.front .item img, .author .item img {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.author .item {
+  margin-right: 1em;
+}
+.author .item img {
+  background-color: #333;
+}
+.project img {
+	width: 100%;
+}
+a, a:link, a:visited, a:hover {
+  color: #000;
+  text-decoration: underline;
+  font-weight: normal;
+}
+.desc a {
+  text-decoration: underline;
+}
+h1 a {
+  border-bottom: 0.09em solid #000;
+}
+h1, h2, h3 {
+  font-family: KelsonSans, sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: normal;
+}
+h1 {
+	font-size: 4em;
+  line-height: 1.4em;  
+}
+h2 {
+	font-size: 3em;
+}
+h3 {
+	font-size: 1.5em;
+}
+.project .desc, .project img, iframe {
+  margin-bottom: 1.5em;
+}
+a.back {
+  position: fixed;
+  top: 60px;
+  left: 30px;
+  font-size: 1.9em;
+  padding: 0.34em 0.52em;
+  background: #000;
+  border-radius: 1000px;
+  color: white;
+  font-weight: bold;
+  opacity: 0.25;
+  font-family: KelsonSans;
+  text-decoration: none;
+}
+.desc {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  opacity: 0.9;
+}

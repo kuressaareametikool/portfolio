@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>   
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="content"></div>
+
+  <script type="template/html" id="template_front">
+    <div class="front">
+    <h2>Portfolios</h2>
+    {{#each index}}
+      <a href="#/{{@key}}">{{@key}}</a>
+    {{/each}}
+    </div>
+  </script>
+
+  <script type="template/html" id="template_author">
+    <div class="author">
+      <a class="back" href="/">‹</a>        
+      <h2>{{author.title}}</h2>
+      <div class="desc">{{{author.desc}}}</div>
+      {{#each author.projects}}
+        <div class="item">
+          <a href="#/{{../author_id}}/{{@key}}"><img style="background-image: url({{image}})" /></a>
+          <h3><a href="#/{{../author_id}}/{{@key}}">{{title}}</a></h3>
+        </div>
+      {{/each}}
+    </div>
+  </script>
+
+  <script type="template/html" id="template_project">
+    <div class="project">
+    <a class="back" href="/#/{{author_id}}">‹</a>        
+    <h2>{{project.title}}</h2>
+    <div class="desc">{{{project.desc}}}</div>
+    {{#each project.images}}
+    <div class="item">
+      <img src="portfolio/{{../author_id}}/{{../project_id}}/{{this}}" />
+    </div>
+    {{/each}}
+    {{#each project.video}}
+      <iframe width="800" height="415" src="{{.}}" frameborder="0" allowfullscreen></iframe>
+    {{/each}}
+    </div>
+  </script>
+
+  <script src="/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="/vendor/underscore/underscore-min.js"></script>
+  <script src="/vendor/backbone/backbone-min.js"></script>
+  <script src="/vendor/handlebars/dist/handlebars.min.js"></script>
+  <script src="/js/client.js"></script>
+</body>
+</html>

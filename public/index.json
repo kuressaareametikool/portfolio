@@ -1,0 +1,185 @@
+{
+  "Anni": {
+    "projects": {
+      "Flaier": {
+        "images": [
+          "EVeriala2.JPG",
+          "EVeriala3.jpg",
+          "flaier.jpg",
+          "flaier2.jpg"
+        ],
+        "image": "portfolio/Anni/Flaier/EVeriala2.JPG",
+        "title": "Eriala flaier",
+        "desc": "Ma pildistasin erialade pilte, siis lõikasin tausta ära ja panin oma tehtud flaieri peale. Kasutasin pildistamiseks Canon 7D kaamerat ning lõikasin ja tegin flaieri Photoshopis."
+      },
+      "Joonistused": {
+        "images": [
+          "akera.JPG",
+          "ilussurm.jpg",
+          "mees.JPG",
+          "sinine.JPG",
+          "tüdruk.JPG",
+          "tüdruk3.JPG"
+        ],
+        "image": "portfolio/Anni/Joonistused/akera.JPG",
+        "title": "Joonistused",
+        "desc": "Joonistused hariliku ja värviliste pliiatsitega."
+      },
+      "Maalid": {
+        "images": [
+          "aroos.jpg",
+          "guaššjapliiats.JPG",
+          "nainevastandvärvid.JPG",
+          "natüür.JPG",
+          "natüür2.JPG",
+          "natüür3.JPG",
+          "tüdrukjameri.JPG"
+        ],
+        "image": "portfolio/Anni/Maalid/aroos.jpg",
+        "title": "Maalid",
+        "desc": "Enamjaolt maalisin natüürmorte, kasutades akrüüli, vesivärve ja guašše. Õppisin asju vaatama ja uurima, et neid siis pintsliga paberile kanda. Kaasa aitas ka värvusõpetus, kus õppisin õigeid värvivalikuid tegema ning värve kokku sobitama ja segama.\n"
+      },
+      "Plakatid": {
+        "images": [
+          "fotomontaaž.jpg",
+          "fotomontaaž2.JPG",
+          "giraffe.jpg",
+          "plakatingel.jpg",
+          "plakatingel2.JPG",
+          "raamatulaat.jpg",
+          "raamatulaat2.JPG"
+        ],
+        "image": "portfolio/Anni/Plakatid/fotomontaaž.jpg",
+        "title": "Plakatid",
+        "desc": "Plakatid\n--"
+      },
+      "Raamat": {
+        "images": [
+          "raamatukaaned.jpg",
+          "raamatukaaned2.JPG",
+          "raamatukaaned3.JPG",
+          "raamatukaaned4.JPG"
+        ],
+        "title": "Raamat",
+        "desc": "Raamat\n--",
+        "image": "portfolio/Anni/Raamat/raamatukaaned.jpg"
+      },
+      "Segatehnika": {
+        "images": [
+          "akriitpastell2.jpg",
+          "deatüüpia.jpg",
+          "kriitpastell.JPG",
+          "kriitpastell3.JPG",
+          "kuivnõel.jpg",
+          "moejoonistus.JPG"
+        ],
+        "image": "portfolio/Anni/Segatehnika/akriitpastell2.jpg",
+        "title": "Segatehnika",
+        "desc": "Segatehnikas olen ma teinud kriitpastelle, kuinõelatehnikat, deatüüpiat ja moejoonistust. Moejoonistuses õppisin ma inimese joonistamist ning riiete kujundamist."
+      },
+      "Tüpograafia": {
+        "images": [
+          "11klass.jpg",
+          "listentoyourart.jpg",
+          "teeonpikk.JPG"
+        ],
+        "image": "portfolio/Anni/Tüpograafia/11klass.jpg",
+        "title": "Tüpograafia",
+        "desc": "--"
+      },
+      "Videod": {
+        "images": [],
+        "title": "Videod",
+        "desc": "--\nhttp://vimeo.com/84119549"
+      }
+    }
+  },
+  "Uhisprojektid": {
+    "projects": {
+      "Linnatähestik": {
+        "images": [
+          "asein1.jpg",
+          "asein2.jpg"
+        ],
+        "image": "portfolio/Uhisprojektid/Linnatähestik/asein1.jpg",
+        "title": "Linnatähestik",
+        "desc": "Anni ja Jaanika pildistasid Kuressaare vanalinnas kirjatähti meenutavaid objekte. Saime teada, et tähed ei ole linnaruumis jaotatud ühtlaselt: pooli tähti ei leidnud, teisi oli aga väga palju (seinaankur kui \"s\")."
+      },
+      "Mäng": {
+        "images": [],
+        "title": "Mäng",
+        "desc": "Kogu kursuse loodud platvormmäng, valminud 4-päevase intensiivsessiooni käigus. Mängu demo on siin <a href=\"http://projektid.disainimajakas.ee/ak_game/public\">http://projektid.disainimajakas.ee/ak_game/public</a> ja mängu lähtekood on saadaval siin <a href=\"http://github.com/kristjanjansen/ak_game\">http://github.com/kristjanjansen/ak_game</a>",
+        "video": [
+          "//player.vimeo.com/video/82547231"
+        ]
+      },
+      "PliitKristjan": {
+        "images": [
+          "1IMG_3853.jpg",
+          "2IMG_3856.jpg",
+          "3IMG_3912.jpg",
+          "4IMG_3068.JPG",
+          "5IMG_3996.jpg",
+          "6IMG_4005.jpg"
+        ],
+        "image": "portfolio/Uhisprojektid/PliitKristjan/1IMG_3853.jpg",
+        "title": "PliitKristjan",
+        "desc": "Kristjan, Katri, Karina, Kaspar ja Joonas ehitasid tulevikupliidi prototüübi. Pliit pidi olema turvalisem, paremini puhastatavam, lihtsam kasutada, puuetega inimeste sõbralik ja pakkuma üllatust. Ehitasime pliidi ja tegime kasutajatesti. Õppisime, et ei tohi keskenduda vormi viimistlemisele ja detailidesse kinni jääda. Esmalt tuleb korralikult läbi mõelda kasutajaliides.",
+        "video": [
+          "//www.youtube.com/embed/sRoGbAzB5Qg",
+          "//www.youtube.com/embed/b52SXkAePdg"
+        ]
+      },
+      "PliitMadis": {
+        "images": [
+          "1.jpg",
+          "2.JPG",
+          "3.jpg",
+          "4.JPG",
+          "5.jpg",
+          "6.jpg",
+          "7.jpg"
+        ],
+        "image": "portfolio/Uhisprojektid/PliitMadis/1.jpg",
+        "title": "PliitMadis",
+        "desc": "Madis, Jaanika, Jelizaveta, Anni ja Martin ehitasid tulevikupliidi prototüübi. Pliit pidi olema turvalisem, paremini puhastatavam, lihtsam kasutada, puuetega inimeste sõbralik ja pakkuma üllatust. Ehitasime pliidi, visandasime mobiilirakenduse ja tegime kasutajatesti. Õppisime, et hulludest ideedest võib lõpuks saada siiski lihtne ja teostatav toode. ",
+        "video": [
+          "//www.youtube.com/embed/tdcLMauCcbY"
+        ]
+      },
+      "Rahaautomaat": {
+        "images": [
+          "1.jpg",
+          "2.jpg",
+          "3.JPG"
+        ],
+        "image": "portfolio/Uhisprojektid/Rahaautomaat/1.jpg",
+        "title": "Pangaautomaat",
+        "desc": "Poolelijäänud projekt: õppisime tundma ATMide kasutusloogikat, tegime kasutajauuringut Swedbankis ning ehitasime pangaautomaadi prototüübi. Kasutasime vana monitori, Arduino mikrokontrollerit, Tinkerkiti <em>shield</em>i ja lüliteid ning NodeJS baasil loodud <em>state machine</em>'i, mile lähtekood asub siin: <a href=\"https://github.com/kristjanjansen/ak_atm\">https://github.com/kristjanjansen/ak_atm</a>. Jõudsime ainult praeguse põlvkonna ATMide simuleerimiseni, tuleviku rahaautomaatide loomine jääb tulevikku."
+      },
+      "TüpoCommunist": {
+        "images": [
+          "IMG_1671.JPG",
+          "IMG_1719.JPG",
+          "IMG_5302.JPG",
+          "a.JPG"
+        ],
+        "image": "portfolio/Uhisprojektid/TüpoCommunist/IMG_1671.JPG",
+        "title": "TüpoCommunist",
+        "desc": "Martin ja Joonas kujundasid 8x8 maatrikskirja nimega \"Communist\". Inspiratsiooniks olid Nõukogude propagandapostrid. Õppisime, kuidas piiratud tingimustes luua loetav ja jõuline kiri. Kasutasime seda omatehtud mängus ja MK-13 kasutas meie kirja valgusgraffiti loomiseks.",
+        "video": []
+      },
+      "TüpoDots": {
+        "images": [
+          "1.JPG",
+          "2.JPG",
+          "3.JPG",
+          "4.JPG"
+        ],
+        "image": "portfolio/Uhisprojektid/TüpoDots/1.JPG",
+        "title": "Tüpograafia: kiri Dots",
+        "desc": "Katri ja Jelizaveta kujundasid 8x8 maatrikskirja nimega \"Dots\", mis sisaldas nii ladina, kui ka vene tähestikku. Õppisime, kuidas piiratud tingimustes luua elegantne ja minimaalse laiusega kiri.\n\n"
+      }
+    }
+  }
+}
